@@ -9,7 +9,7 @@ var tpotEngine = function(){
 
 	var screen_size = [640, 480];
 	
-	var enable_extension;
+	var enable_extension = new Array();;
 
 	var create_shader = function(id, gl)
 	{
