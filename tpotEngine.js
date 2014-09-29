@@ -58,7 +58,7 @@ var tpotEngine = function(){
 
 	var check_extension = function(name, gl)
 	{
-		if(testArray.indexOf(name) >= 0){
+		if(enable_extension.indexOf(name) >= 0){
 			return enable_extension[name];
 		}
 		
