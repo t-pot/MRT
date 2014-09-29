@@ -55,7 +55,8 @@ var tpotEngine = function(){
 		gl.useProgram(program);
 		return program;
 	}
-	var check_extension(name, gl)
+
+	var check_extension = function(name, gl)
 	{
 		if(testArray.indexOf(name) >= 0){
 			return enable_extension[name];
